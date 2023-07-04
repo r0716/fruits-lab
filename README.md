@@ -1,7 +1,7 @@
 # Express Fruits Lab
 
 
-<img src="/Users/riannawinston/js516/fruits-lab/fruit-dancing-gif.gif">
+<img src="https://raw.githubusercontent.com/r0716/fruits-lab/main/fruit-dancing-gif.gif">
 
 This is a simple Express.js project for managing a collection of fruits. The project allows users to perform basic CRUD (Create, Read, Update, Delete) operations on a list of fruits using a RESTful API.
 

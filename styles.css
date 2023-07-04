@@ -1,0 +1,90 @@
+/* Reset default styles */
+body, nav, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #333;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li {
+    margin-right: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  li:last-child {
+    margin-right: 0;
+  }
+  
+  /* Style the navigation links */
+  a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  
+  /* Active link style */
+  a.active {
+    background-color: #555;
+    font-weight: bold;
+  }
+  
+
+  .container {
+    background-image: url('/Users/riannawinston/js516/fruits-lab/fruit-dancing-gif.gif');
+    background-size: 20%;
+    background-position: cover; 
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  input[type="text"] {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4286f4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #366ec2;
+  }
